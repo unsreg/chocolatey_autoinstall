@@ -4,21 +4,30 @@
 # Note: Net 4.0 must be installed prior to running this script
 #
 #Modify this line to change packages
-$items = @(
-	"flashplayerplugin"
-	, "DotNet4.5") 
- 
+#$items = @(
+#	"chocolateygui"
+#	,"flashplayerplugin"
+#	, "DotNet4.5",
+#	, "vlc"
+#	, "7zip.install") 
+$items = Get-Content "app_list.txt"
+write-host $data.count total lines read from file
+
 #################
 # Create packages.config based on passed arguments
 #################
 $xml = '<?xml version="1.0" encoding="utf-8"?>'+ "`n" +'<packages>' + "`n"
-foreach ($item in $items)
-{
-  $xml += "`t" +'<package id="' + $item + '"/>' + "`n"
+foreach ($item in $items) {
+  if(![string]::IsNullOrEmpty($item)) {            
+       $xml += "`t" +'<package id="' + $item + '"/>' + "`n"
+    } 
 }
 $xml += '</packages>'
  
-$file = ([system.environment]::getenvironmentvariable("userprofile") + "\packages.config")
+#$file = ([system.environment]::getenvironmentvariable("userprofile") + "\packages.config")
+New-Item -Force -ItemType directory -Path $pwd\tmp
+$file = "$pwd\tmp\packages.config"
+
 $xml | out-File $file
 
 ######
@@ -29,3 +38,4 @@ cinst $file -y
 ########
 # Delete packages.config
 Remove-Item $file
+Remove-Item $pwd\tmp -Force -Recurse

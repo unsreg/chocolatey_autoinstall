@@ -1,0 +1,8 @@
+chocolateygui
+flashplayerplugin
+DotNet4.5
+vlc
+7zip.install
+puntoswitcher
+aimp3
+stduviewer
