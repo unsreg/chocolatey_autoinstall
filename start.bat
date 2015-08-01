@@ -40,7 +40,7 @@ REM Run shell as admin (example) - put here code as you like
 
 cls
 echo installing dotNetFx 4.0
-%~dp0\dotNetFx40_Full_setup.exe /q
+%~dp0\dotNetFx40_Full_setup.exe /q /norestart
 
 :: check chocolatey install
 for /f %%G in ('choco') do (
@@ -58,13 +58,13 @@ if %EXIST% == true (
 	echo +Chocolatey is already installed+	
 ) else (
 	cls
-	echo install chocolatey
+	echo install chocolateye
 	@powershell -NoProfile -ExecutionPolicy unrestricted -File %~dp0\install_chocolatey.ps1
 )
 
 set PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 :: install all applications
-@powershell -NoProfile -ExecutionPolicy unrestricted -File %~dp0\win_autoinstall_chocolatey.ps1
+@powershell -NoProfile -ExecutionPolicy unrestricted -File %~dp0\win_autoinstall_chocolatey.ps1 -app_list_path %~dp0
 
 :EOF
 pause
