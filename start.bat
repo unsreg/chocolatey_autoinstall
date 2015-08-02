@@ -36,6 +36,8 @@ REM Run shell as admin (example) - put here code as you like
 
 :: enable PowerShell scripts execution
 @powershell Set-ExecutionPolicy RemoteSigned
+@powershell Unblock-File -Path %~dp0\res\install_chocolatey.ps1
+@powershell Unblock-File -Path %~dp0\res\install_chocolatey_app_list.ps1
 
 :: install DotNET 4.0
 cls
