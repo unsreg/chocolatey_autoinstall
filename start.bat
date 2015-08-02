@@ -3,7 +3,6 @@
 :::::::::::::::::::::::::::::::::::::::::
 @echo off
 CLS
-::ECHO.
 ::ECHO =============================
 ::ECHO Running Admin shell
 ::ECHO =============================
@@ -38,11 +37,14 @@ REM Run shell as admin (example) - put here code as you like
 :: enable PowerShell scripts execution
 @powershell Set-ExecutionPolicy RemoteSigned
 
+:: install DotNET 4.0
 cls
 echo installing dotNetFx 4.0
-%~dp0\dotNetFx40_Full_setup.exe /q /norestart
+%~dp0\res\dotNetFx40_Full_setup.exe /q /norestart
 
-:: check chocolatey install
+cls
+echo check chocolatey installation
+:: exec installed chocolatey application
 for /f %%G in ('choco') do (
 	set _dtm=%%G
 )
@@ -53,18 +55,21 @@ if not x%_dtm:Chocolatey=%==x%_dtm% set tmp_value=true
 if (%tmp_value%) == () set tmp_value=false
 endlocal&set EXIST=%tmp_value%
 
-:: install chocolatey is not exist
+cls
+:: install chocolatey if not exist
 if %EXIST% == true (	
-	echo +Chocolatey is already installed+	
+	echo chocolatey is already installed
 ) else (
 	cls
-	echo install chocolateye
-	@powershell -NoProfile -ExecutionPolicy unrestricted -File %~dp0\install_chocolatey.ps1
+	echo installing chocolateye
+	@powershell -NoProfile -ExecutionPolicy unrestricted -File %~dp0\res\install_chocolatey.ps1
 )
 
+cls
 set PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 :: install all applications
-@powershell -NoProfile -ExecutionPolicy unrestricted -File %~dp0\install_chocolatey_app_list.ps1 -app_list_path %~dp0
+echo installing all applications
+@powershell -NoProfile -ExecutionPolicy unrestricted -File %~dp0\res\install_chocolatey_app_list.ps1 -app_list_path %~dp0\app_list.txt
 
 :EOF
 pause

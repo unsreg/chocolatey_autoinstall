@@ -1,33 +1,43 @@
-# this is comment
-chocolateygui
-DotNet4.5
-vcredist2008
-vcredist2010
-vcredist2013
-directx
-wudt
-7zip.install
-flashplayerplugin
-fsviewer
-puntoswitcher
-aimp
-stduviewer
-notepadplusplus
-revo.uninstaller
-teamviewer
-google-chrome-x64
-ccleaner
-defraggler
-vlc
-mpc-hc
-daemontoolslite
-qbittorrent
-skype
-ultraiso
-totalcommander
-googledrive
-freedownloadmanager
-speccy
-libreoffice
-driverpacksolution
-avastfreeantivirus
+# --GUI FOR CHOCOLATEY MANAGE--
+#chocolateygui
+
+# --SYSTEM--
+#DotNet4.5
+#vcredist2008
+#vcredist2010
+#vcredist2013
+#directx
+
+# --MEDIA--
+#flashplayerplugin
+#aimp
+#vlc
+#mpc-hc
+#fsviewer
+#google-chrome-x64
+
+# --DOCUMENTS--
+#notepadplusplus
+#stduviewer
+#libreoffice
+
+# --SYSTEM TOOLS--
+#7zip.install
+#wudt
+#puntoswitcher
+#revo.uninstaller
+#teamviewer
+#ccleaner
+#defraggler
+#daemontoolslite
+#ultraiso
+#totalcommander
+#speccy
+#driverpacksolution
+#avastfreeantivirus
+
+# --OTHER--
+#qbittorrent
+#skype
+#googledrive
+#freedownloadmanager
