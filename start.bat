@@ -64,7 +64,7 @@ if %EXIST% == true (
 
 set PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 :: install all applications
-@powershell -NoProfile -ExecutionPolicy unrestricted -File %~dp0\win_autoinstall_chocolatey.ps1 -app_list_path %~dp0
+@powershell -NoProfile -ExecutionPolicy unrestricted -File %~dp0\install_chocolatey_app_list.ps1 -app_list_path %~dp0
 
 :EOF
 pause
