@@ -8,6 +8,29 @@
 #vcredist2013
 #directx
 #classic-shell
+#freefilesync
+
+# --DEVELOP--
+#innosetup
+#intellijidea-community
+#androidstudio
+#dependencywalker
+#sqlserverexpress
+#tortoisegit
+#tortoisehg
+#svn
+#blender
+#visualstudiocommunity2013
+#visualstudio2015community
+#nodejs
+#netbeans
+#eclipse
+#eclipse-standard-luna
+#eclipse-jee-luna
+#mysql
+#mongodb
+#openvpn
+#unity
 
 # --MEDIA--
 #flashplayerplugin
@@ -16,11 +39,13 @@
 #mpc-hc
 #fsviewer
 #google-chrome-x64
+#inkscape
 
 # --DOCUMENTS--
 #notepadplusplus
 #stduviewer
 #libreoffice
+#naps2
 
 # --SYSTEM TOOLS--
 #7zip.install
@@ -41,4 +66,5 @@
 #qbittorrent
 #skype
 #googledrive
+#dropbox
 #freedownloadmanager
