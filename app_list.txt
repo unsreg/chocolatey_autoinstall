@@ -1,4 +1,4 @@
-# --GUI FOR CHOCOLATEY MANAGE--
+# --GUI FOR CHOCOLATEY MANAGING--
 #chocolateygui
 
 # --SYSTEM--
@@ -40,6 +40,7 @@
 #fsviewer
 #google-chrome-x64
 #inkscape
+#gimp
 
 # --DOCUMENTS--
 #notepadplusplus
