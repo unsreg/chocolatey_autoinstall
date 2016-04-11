@@ -1,11 +1,14 @@
-# chocolatey_autoinstall
-Batch software installation using a chocolatey
+##Chocolatey autoinstall
+####Batch install and update applications
 
---USING--
-1. Copy the file start.bat and res folder in a folder that does not contain not Latin characters and spaces and  in the path .
-2. Edit the file app_list.txt, uncomment only the necessary applications or add new from the list.
+**Using:**
+
+1. Copy the 'start.bat' file and 'res' folder into a folder that does not contain not latin characters and spaces in the path.
+2. Edit the file 'app_list.txt'. Uncomment (remove #) only the necessary applications or add new from the list from the official site https://chocolatey.org/packages.
 3. Run the file start.bat
 
---TESTED Windows OS versions
-- Windows 7, 8, 10 - WORKING
-- Windows XP - !!NOT WORKING!!
+
+**Tested OS:**
+
+* Windows 7, 8, 10 ...
+* Windows XP - NOT WORKS

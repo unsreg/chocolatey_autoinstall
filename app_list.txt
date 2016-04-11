@@ -19,6 +19,7 @@
 #tortoisegit
 #tortoisehg
 #svn
+#conemu
 #blender
 #visualstudiocommunity2013
 #visualstudio2015community
@@ -31,6 +32,7 @@
 #mongodb
 #openvpn
 #unity
+#dia
 
 # --MEDIA--
 #flashplayerplugin
@@ -41,6 +43,7 @@
 #google-chrome-x64
 #inkscape
 #gimp
+#picasa
 
 # --DOCUMENTS--
 #notepadplusplus
