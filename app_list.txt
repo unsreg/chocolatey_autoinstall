@@ -1,5 +1,5 @@
 # --GUI FOR CHOCOLATEY MANAGING--
-#chocolateygui
+chocolateygui
 
 # --SYSTEM--
 #DotNet4.5
@@ -30,6 +30,7 @@
 #eclipse-jee-luna
 #mysql
 #mongodb
+#dbeaver
 #openvpn
 #unity
 #dia
