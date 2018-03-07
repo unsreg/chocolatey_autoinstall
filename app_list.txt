@@ -11,19 +11,22 @@ chocolateygui
 #freefilesync
 
 # --DEVELOP--
-#innosetup
-#intellijidea-community
-#androidstudio
 #dependencywalker
 #sqlserverexpress
+#git.install
+#sourcetree
 #tortoisegit
 #tortoisehg
 #svn
 #conemu
+#nodejs
+#innosetup
+#intellijidea-community
+#androidstudio
 #blender
 #visualstudiocommunity2013
 #visualstudio2015community
-#nodejs
+#visualstudio2017community
 #netbeans
 #eclipse
 #eclipse-standard-luna
@@ -44,10 +47,14 @@ chocolateygui
 #google-chrome-x64
 #inkscape
 #gimp
+#paint.net
+#greenshot
 #picasa
+#3rvx
 
 # --DOCUMENTS--
 #notepadplusplus
+#visualstudiocode
 #stduviewer
 #libreoffice
 #naps2
@@ -63,6 +70,7 @@ chocolateygui
 #daemontoolslite
 #ultraiso
 #totalcommander
+#doublecmd
 #speccy
 #driverpacksolution
 #avastfreeantivirus
@@ -70,6 +78,9 @@ chocolateygui
 # --OTHER--
 #qbittorrent
 #skype
+#telegram.install
+#viber
+#slack
 #googledrive
 #dropbox
 #freedownloadmanager
