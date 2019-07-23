@@ -8,17 +8,47 @@ chocolateygui
 #vcredist2013
 #directx
 #classic-shell
+
+# --SYSTEM TOOLS--
+#7zip.install
+#winrar
+#wudt
+#puntoswitcher
+#revo.uninstaller
+#teamviewer
+#ccleaner
+#defraggler
+#daemontoolslite
+#ultraiso
+#speccy
+#driverpacksolution
+
+# --ANTIVIRUS--
+#avastfreeantivirus
+
+# --FILES--
 #freefilesync
+#doublecmd
+#totalcommander
+#qbittorrent
+#freedownloadmanager
+#veracrypt
+#filezilla
+
+# --FILES_WEB_DRIVE--
+#googledrive
+#dropbox
+
+# --VIRTUALIZATION--
+#virtualbox
+#virtualbox.extensionpack
+#virtualbox-guest-additions-guest.install
+#vagrant
 
 # --DEVELOP--
 #dependencywalker
-#sqlserverexpress
-#git.install
-#sourcetree
-#tortoisegit
-#tortoisehg
-#svn
 #conemu
+#putty.install
 #nodejs
 #innosetup
 #intellijidea-community
@@ -31,20 +61,35 @@ chocolateygui
 #eclipse
 #eclipse-standard-luna
 #eclipse-jee-luna
-#mysql
-#mongodb
-#dbeaver
 #openvpn
 #unity
 #dia
+#logexpert
+#jre8
+#python2
+#python3
+
+# --VERSION_CONTROL--
+#git.install
+#sourcetree
+#tortoisegit
+#tortoisehg
+#svn
+
+# --DATABASE--
+#sqlserverexpress
+#mysql
+#mongodb
+#dbeaver
 
 # --MEDIA--
 #flashplayerplugin
 #aimp
 #vlc
 #mpc-hc
+#quicktime
 #fsviewer
-#google-chrome-x64
+#xnviewmp.install
 #inkscape
 #gimp
 #paint.net
@@ -52,35 +97,28 @@ chocolateygui
 #picasa
 #3rvx
 
+# --WEB_BROWSER--
+#google-chrome-x64
+#firefox
+
 # --DOCUMENTS--
 #notepadplusplus
 #visualstudiocode
+#atom
 #stduviewer
+#sumatrapdf
+#foxitreader
 #libreoffice
 #naps2
+#cherrytree
 
-# --SYSTEM TOOLS--
-#7zip.install
-#wudt
-#puntoswitcher
-#revo.uninstaller
-#teamviewer
-#ccleaner
-#defraggler
-#daemontoolslite
-#ultraiso
-#totalcommander
-#doublecmd
-#speccy
-#driverpacksolution
-#avastfreeantivirus
-
-# --OTHER--
-#qbittorrent
+# --COMMUNICATION_CHAT--
 #skype
 #telegram.install
 #viber
 #slack
-#googledrive
-#dropbox
-#freedownloadmanager
+
+# --COMMUNICATION_MAIL--
+#thunderbird
+
+# --OTHER--
